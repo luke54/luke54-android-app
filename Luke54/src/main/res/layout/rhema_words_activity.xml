@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    tools:context=".RhemaWordsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView"
+            android:scrollbars="none"
+            android:layout_gravity="center" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:orientation="horizontal"
+                >
+            <Button
+                android:id="@+id/worker"
+                android:text="@string/rhema_words_worker"
+                android:layout_height="wrap_content"
+                android:textSize="16dip"
+                android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/student"
+                android:text="@string/rhema_words_student"
+                android:layout_height="wrap_content"
+                android:textSize="16dip"
+                android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/marriage"
+                android:text="@string/rhema_words_marriage"
+                android:layout_height="wrap_content"
+                android:textSize="16dip"
+                android:layout_width="match_parent"/>
+            <Button
+                android:id="@+id/family"
+                android:text="@string/rhema_words_family"
+                android:layout_height="wrap_content"
+                android:textSize="16dip"
+                android:layout_width="match_parent"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ListView
+            android:id="@+id/rhema_words_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"/>
+    </LinearLayout>
+
+</RelativeLayout>

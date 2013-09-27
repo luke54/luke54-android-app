@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dip"
+    android:layout_height="150dip"
+    android:paddingLeft="5dp"
+    >
+<!--
+	    <ProgressBar 		
+			android:id="@+id/pbar" 
+			android:layout_width="20dip"      
+	   		android:layout_height="20dip"
+			android:visibility="gone"
+			android:layout_centerInParent="true"
+		/>
+-->
+    <ProgressBar
+        android:id="@+id/pbar_luke54_hot"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        />
+		
+	<ImageView
+	    android:id="@+id/main_page_hlistView_item_image"
+	    android:layout_width="150dip"
+	    android:layout_height="150dip"
+	    android:scaleType="centerCrop"
+        android:src="@drawable/image_ph"
+	    />
+        
+	<TextView 
+		android:id="@+id/main_page_hlistView_item_title"
+		android:layout_alignBottom="@id/tb"
+		android:layout_width="150dip" android:layout_height="40dip"
+        android:background="#f2f1f0"
+		android:text="Europe's Leaders Fear Libya Could Become Next Afghanistan" 
+		android:paddingLeft="6dip"
+		android:paddingRight="6dip"
+		android:paddingTop="6dip"
+		android:maxLines="2"
+		android:textSize="12dip"
+
+        android:ellipsize="end"
+        android:textColor="#7e7b77"
+		android:layout_alignWithParentIfMissing="true"
+	/>
+	
+
+</RelativeLayout>

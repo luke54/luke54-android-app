@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drop_down_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ffd2e4cd"
+    android:drawableBottom="@android:drawable/divider_horizontal_bright"
+    android:textSize="18dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:minHeight="30dp">
+
+</TextView>

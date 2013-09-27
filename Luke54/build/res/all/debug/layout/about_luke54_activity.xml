@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e3de"
+    >
+    <WebView
+        android:id="@+id/about_luke54_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:background="#e9e3de"/>
+
+</ScrollView><!-- From: file:/Users/hitobias/AndroidStudioProjects/Luke54Project/Luke54/src/main/res/layout/about_luke54_activity.xml -->

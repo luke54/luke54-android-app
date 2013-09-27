@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res" >
+            <file
+                name="hlv_overscroll_edge"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-hdpi/hlv_overscroll_edge.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="hlv_overscroll_glow"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-hdpi/hlv_overscroll_glow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="hlv_overscroll_edge"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-ldpi/hlv_overscroll_edge.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="hlv_overscroll_glow"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-ldpi/hlv_overscroll_glow.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="hlv_overscroll_edge"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-mdpi/hlv_overscroll_edge.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="hlv_overscroll_glow"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-mdpi/hlv_overscroll_glow.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="hlv_overscroll_edge"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-xhdpi/hlv_overscroll_edge.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="hlv_overscroll_glow"
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/drawable-xhdpi/hlv_overscroll_glow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/res/values/hlv_attrs.xml"
+                qualifiers="" >
+                <attr
+                    name="sephiroth_listViewStyle"
+                    format="reference" />
+
+                <declare-styleable name="HListView" >
+                    <attr name="android:entries" />
+                    <attr name="android:divider" />
+                    <attr
+                        name="dividerWidth"
+                        format="dimension" />
+                    <attr
+                        name="headerDividersEnabled"
+                        format="boolean" />
+                    <attr
+                        name="footerDividersEnabled"
+                        format="boolean" />
+                    <attr
+                        name="overScrollHeader"
+                        format="reference|color" />
+                    <attr
+                        name="overScrollFooter"
+                        format="reference|color" />
+
+                    <!--
+        When "wrap_content" is used as value of the layout_height property.
+        Pass the position, inside the adapter, of the view being used to measure the view
+        or '-1' to use the default behavior ( default is -1 )
+                    -->
+                    <attr
+                        name="measureWithChild"
+                        format="integer" />
+                </declare-styleable>
+
+                <attr
+                    name="sephiroth_absHListViewStyle"
+                    format="reference" />
+                <attr
+                    name="sephiroth_listPreferredItemWidth"
+                    format="dimension" />
+                <attr
+                    name="entries"
+                    format="reference" />
+
+                <declare-styleable name="AbsHListView" >
+                    <attr name="android:listSelector" />
+                    <attr name="android:smoothScrollbar" />
+                    <attr name="android:drawSelectorOnTop" />
+                    <attr name="android:cacheColorHint" />
+                    <attr name="android:scrollingCache" />
+                    <attr name="android:choiceMode" />
+                    <attr
+                        name="stackFromRight"
+                        format="boolean" />
+                    <attr name="transcriptMode" >
+                        <enum
+                            name="disabled"
+                            value="0" />
+                        <enum
+                            name="normal"
+                            value="1" />
+                        <enum
+                            name="alwaysScroll"
+                            value="2" />
+                    </attr>
+                </declare-styleable>
+            </file>
+        </source>
+        <source path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/build/res/rs/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/release/res" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/release/assets" />
+    </dataSet>
+
+</merger>

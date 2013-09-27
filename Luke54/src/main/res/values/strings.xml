@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">水深之處</string>
+    <string name="action_settings">Settings</string>
+    <string name="allArticleList">全部</string>
+    <string name="title_luke54_hot">水深精選</string>
+    <string name="title_daily_bible">每日經文</string>
+    <string name="title_rhema_words">應時的話</string>
+    <string name="title_gospel_articles">福音問答</string>
+    <string name="rhema_words_worker">上班族</string>
+    <string name="rhema_words_student">學生</string>
+    <string name="rhema_words_marriage">感情·婚姻</string>
+    <string name="rhema_words_family">家庭·親子</string>
+
+    <string-array name="title_section">
+        <item>水深之處</item>
+        <item>水深精選</item>
+        <item>每日經文</item>
+        <item>應時的話</item>
+        <item>福音問答</item>
+    </string-array>
+
+    <string name="luke54_hot_json_url">http://www.luke54.org/components/com_mobileapp/androidFeatured.json</string>
+    <string name="daily_bible_json_url">http://www.luke54.org/components/com_mobileapp/androidBible.json</string>
+    <string name="gospel_articles_json_url">http://www.luke54.org/components/com_mobileapp/ask.json</string>
+    <string name="rhema_words_json_work_url">http://www.luke54.org/components/com_mobileapp/work.json</string>
+    <string name="rhema_words_student_json_url">http://www.luke54.org/components/com_mobileapp/student.json</string>
+    <string name="rhema_words_marriage_json_url">http://www.luke54.org/components/com_mobileapp/marriage.json</string>
+    <string name="rhema_words_family_json_url">http://www.luke54.org/components/com_mobileapp/family.json</string>
+
+    <string-array name="rhema_words_array_json_rul">
+        <item>http://www.luke54.org/components/com_mobileapp/work.json</item>
+        <item>http://www.luke54.org/components/com_mobileapp/student.json</item>
+        <item>http://www.luke54.org/components/com_mobileapp/marriage.json</item>
+        <item>http://www.luke54.org/components/com_mobileapp/family.json</item>
+    </string-array>
+
+    <string name="title_activity_favorite_list">我的最愛</string>
+    <string name="title_activity_image_loading_list">ImageLoadingListActivity</string>
+    <string name="title_activity_run_source">RunSourceActivity</string>
+    <string name="title_activity_main">水深之處</string>
+    <string name="share">分享</string>
+    <string name="category">分類</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="copyright">水深之處 © 2010~2013</string>
+    <string name="advice">反饋建議</string>
+    <string name="about">關於水深之處</string>
+    <string name="luke54_facebook_fans">水深之處粉絲專頁</string>
+    <string name="title_activity_luke54_fans">水深之處粉絲專頁</string>
+    <string name="loading">文章加載中...</string>
+    <string name="ministryOfLife">人生的奧秘</string>
+    <string name="title_activity_ministry_of_life">人生的奧秘</string>
+    <string name="title_activity_ftttmoh">人生的奧秘</string>
+    <string name="luke54_moh">人生的奧秘卡通版</string>
+    <string name="fttt_moh">人生的奧秘傳講版</string>
+    <string name="add_contact">添加聯系人</string>
+
+</resources>

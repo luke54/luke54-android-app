@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="6" android:versionName="1.2.2.1" package="org.luke54.app">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="16"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/luke54" android:label="@string/app_name" android:theme="@style/Theme.Sherlock.Light">
+        <activity android:label="@string/app_name" android:name="org.luke54.app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_image_loading_list" android:name="org.luke54.app.ImageLoadingListActivity">
+        </activity>
+        <activity android:label="@string/title_activity_run_source" android:name="org.luke54.app.RunSourceActivity">
+        </activity>
+        <activity android:label="@string/title_luke54_hot" android:name="org.luke54.app.Luke54HotActivity">
+        </activity>
+        <activity android:label="@string/title_daily_bible" android:name="org.luke54.app.DailyBibleActivity">
+        </activity>
+        <activity android:hardwareAccelerated="true" android:label="" android:name="org.luke54.app.ArticleActivity">
+        </activity>
+        <activity android:label="@string/title_rhema_words" android:name="org.luke54.app.RhemaWordsActivity">
+        </activity>
+        <activity android:label="@string/title_gospel_articles" android:name="org.luke54.app.GospelArticlesActivity">
+        </activity>
+        <activity android:label="@string/about" android:name="org.luke54.app.AboutLuke54Activity">
+        </activity>
+        <activity android:label="@string/title_activity_luke54_fans" android:name="org.luke54.app.Luke54FansActivity">
+        </activity>
+        <activity android:label="@string/title_activity_ministry_of_life" android:name="org.luke54.app.MinistryOfLifeActivity">
+        </activity>
+        <activity android:label="@string/title_activity_ftttmoh" android:name="org.luke54.app.FTTTMOHActivity">
+        </activity>
+    </application>
+
+</manifest>

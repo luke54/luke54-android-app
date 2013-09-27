@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/category"
+        android:id="@+id/category"
+        android:icon="@drawable/main_category"
+        android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/luke54_hot"
+                android:title="@string/title_luke54_hot" />
+            <item android:id="@+id/daily_bible"
+                android:title="@string/title_daily_bible" />
+            <item android:id="@+id/rhema_words"
+                android:title="@string/title_rhema_words" />
+            <item android:id="@+id/gospel_article"
+                android:title="@string/title_gospel_articles" />
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/ministry"
+        android:icon="@drawable/ministry"
+        android:showAsAction="always"
+        android:title="@string/ministryOfLife">
+        <menu>
+            <item android:id="@+id/luke54_moh"
+                android:title="@string/luke54_moh"/>
+            <item android:id="@+id/fttt_moh"
+                android:title="@string/fttt_moh"/>
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/luke54_facebook_fans"
+        android:title="@string/luke54_facebook_fans"
+        android:orderInCategory="20"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/about_luke54"
+        android:title="@string/about"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
+<!-- From: file:/Users/hitobias/AndroidStudioProjects/Luke54Project/Luke54/src/main/res/menu/main.xml -->

@@ -1,0 +1,15 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1377479408000 16614 27869963288ceec9b554f87f77cb494ea743c060 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/widget/EdgeEffect.java
+1378826417000 118621 a001e826e15f926d57600d493b32e64e317493f6 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/widget/HListView.java
+1377479408000 36452 c253217d82451ef4b485064f6c8c0dbe7e87f931 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/widget/AdapterView.java
+1377479408000 37683 f99cb9dfa7b7d232658b38a23bb82f732769a327 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/widget/OverScroller.java
+1378827506000 174590 3d45e5942e886db11ad89f84269c9e8028328f56 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/widget/AbsHListView.java
+1377479408000 1778 e53fd7da9827db416b6a682dcb75cf6c99db5182 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/util/v11/MultiChoiceModeWrapper.java
+1377479408000 304 783ea5a86d9bbf75cbd4d6efda510754be9414f6 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/util/v11/MultiChoiceModeListener.java
+1377479408000 8913 6b813398a3ac613726f51d6ef2db694860b14baa /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/widget/HeaderViewListAdapter.java
+1377479408000 1415 db9c1617d1350befb742b8f43f329bb266091277 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/util/ViewHelperFactory.java
+1377479408000 337 83848b4b507e32f19fa88a167767fffead1eb9b0 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/util/v16/ViewHelper16.java
+1377479408000 447 e513d13036682c053dc1639dbc217edaa617daf3 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/util/v14/ViewHelper14.java
+1377479408000 5169 af4820dfe32be33f211423c8548e01b4c07d26a7 /Users/hitobias/AndroidStudioProjects/Luke54Project/libs/HorizontalVariableListView/src/it/sephiroth/android/library/util/MathUtils.java
